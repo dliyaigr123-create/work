@@ -1,0 +1,24 @@
+.click {
+    background-color: #c8c10d;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.click__list {
+    
+}
+.click__item {
+    display: inline-block;
+    margin: 0 35px;
+}
+.click__link {
+    text-decoration: none;
+    font-size: 29px;
+    color: #ffffff;
+    font-family: latoRegular;
+}
+.click__images {
+    display: block;
+    margin: 0 auto 20px auto;
+}
