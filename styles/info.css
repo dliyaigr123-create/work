@@ -1,0 +1,33 @@
+.section-background {
+    background-color: #eeebec;
+    overflow: hidden;
+
+}
+
+.info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info__subtitle {
+    font-size: 26px;
+    color: #7a6666;
+    font-family: latoBold;
+    margin-bottom: 15px;
+}
+.info__title {
+    font-size: 43px;
+    color: #e32a62;
+    font-weight: 600;
+    font-family: magraBold;
+    margin-bottom: 15px;
+}
+.info__description {
+    font-size: 20px;
+    color: #7a6666;
+    font-family: robotoRegular;
+}
+.info__images {
+    float: right;
+    max-width: 40%;
+}
