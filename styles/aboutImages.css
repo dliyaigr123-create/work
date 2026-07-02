@@ -1,0 +1,17 @@
+/* .about__images-background {
+  background-image: url('../images/about/FAN9001787.png');
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 20px;
+  
+} */
+
+.about__images-background img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; /* или contain */
+  display: block;
+}

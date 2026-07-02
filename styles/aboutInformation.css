@@ -1,0 +1,57 @@
+.container__inner span {
+    text-decoration: underline;
+}
+
+.container__inner h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #cb3362;
+    font-family: latoRegular;
+}
+
+.container__inner p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #7a6666;
+    font-family: robotoRegular;
+}
+
+.container__inner {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.container__inner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about__block-left {
+    text-align: center;
+    background-color: #efedee;
+    max-width: 400px;
+    padding: 40px 20px;
+    float: left;
+    margin-right: 40px;
+}
+.left__title {
+    line-height: 3;
+}
+.left__description {
+line-height: 3;
+}
+.about__block-right p {
+    line-height: 1.8;
+
+}
+
+.about__block-right {
+    text-align: left;
+}
+.right__title {
+}
+.right__description {
+}
+
+
