@@ -1,0 +1,9 @@
+.blog__background {
+    background-color: #c8c10d;
+    text-align: center;
+}
+.blog__description {
+    font-size: 43px;
+    color: #ffffff;
+    font-family: latoRegular;
+}

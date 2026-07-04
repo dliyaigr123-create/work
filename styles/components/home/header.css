@@ -1,4 +1,4 @@
-.baner{
+б.baner{
   position: relative;
 }
 
@@ -44,6 +44,7 @@
 header{
   padding: 10px 0;
   background-color: #eeebec;
+  width: 100%;
 }
 header h1{
   display: inline-block;
@@ -79,7 +80,7 @@ header nav>ul>li{
 
 header nav a{
   font-size: 15px;
-  color: #7a6666;
+  color: #7a6635;
   font-weight: 500;
   font-family: LatoR;
   text-decoration: none;
