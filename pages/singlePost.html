@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FreezeShop | blog</title>
-    <link rel="stylesheet" href="../styles/components/blog/blogImport.css" />
+    <title>FreezeShop | single post</title>
     <link
       rel="stylesheet"
-      href="../styles/components/blog/blogBackground.css"
+      href="../styles/components/singlePost/singlePostImport.css"
     />
-    <link rel="stylesheet" href="../styles/components/blog/blogContent.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/components/singlePost/singlePostBackground.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/components/singlePost/singlePostContent.css"
+    />
   </head>
   <body>
     <header class="container-current">
@@ -34,10 +40,12 @@
               </ul>
             </li>
             <li class="dropList">
-              <a class="activi" href="../pages/blog.html">blog</a>
+              <a href="../pages/blog.html">blog</a>
               <ul>
                 <li>
-                  <a href="../pages/singlePost.html">single post</a>
+                  <a class="activi" href="../pages/singlePost.html"
+                    >single post</a
+                  >
                 </li>
               </ul>
             </li>
@@ -50,55 +58,36 @@
     </header>
 
     <main class="main">
-      <!-- ! BLOG -->
-      <div class="blog__background">
-        <p class="blog__description">BLOG</p>
+      <!-- ! SINGLE POST -->
+      <div class="single__background">
+        <p class="single__description">SINGLE POST</p>
       </div>
-      <!-- ! CONTENT -->
-      <div class="container">
-        <section class="content">
-          <div class="content__main-block">
-             <!-- ! 1 -->
-            <div class="content__block">
-              <img
-                src="../images/blog/new_chilss.png"
-                alt="New chilss"
-                class="content__img"
-              />
-            </div>
-            <div class="content__block-text">
-              <h4 class="content__title">NEW CHILLS FOR SUMMER</h4>
-              <p class="content__subtitle">By Admin on November 28, 2023</p>
-              <p class="content__description">
-                You can replace all this text with your own text. You can remove
-                any link to our website from this website template, you're free
-                to use this website template without linking back to us. If
-                you're having problems editing this website template.
-              </p>
-              <button class="content__btn">READ MORE</button>
-            </div>
-            <hr />
-            <!-- ! 2 -->
-            <div class="content__block">
-              <img
-                src="../images/blog/Brightness.png"
-                alt="New chilss"
-                class="content__img"
-              />
-            </div>
-            <div class="content__block-text">
-              <h4 class="content__title">NEW CHILLS FOR SUMMER</h4>
-              <p class="content__subtitle">By Admin on November 28, 2023</p>
-              <p class="content__description">
-                You can replace all this text with your own text. You can remove
-                any link to our website from this website template, you're free
-                to use this website template without linking back to us. If
-                you're having problems editing this website template.
-              </p>
-              <button class="content__btn">READ MORE</button>
-            </div>
-            <hr />
-            <button class="content__btn-center">LOAD MORE</button>
+      <!-- ! SINGLE POST CONTENT -->
+      <section class="content">
+        <div class="container">
+          <div class="single-post__left">
+            <img
+              src="../images/siglepost/new_chills.png"
+              alt="New chills"
+              class="single-post__images"
+            />
+            <h4 class="single-post__title">NEW CHILLS FOR SUMMER</h4>
+            <p class="single-post__subtitle">By Admin on November 28, 2023</p>
+            <p class="single-post__description">
+              You can replace all this text with your own text. You can remove
+              any link to our website from this website template, you're free to
+              use this website template without linking back to us. If you're
+              having problems editing this website template, then don't hesitate
+              to ask for help on the forum.
+            </p>
+            <p class="single-post__description move">
+              You can replace all this text with your own text. You can remove
+              any link to our website from this website template, you're free to
+              use this website template without linking back to us. If you're
+              having problems editing this website template, then don't hesitate
+              to ask for help on the forum.
+            </p>
+            <button class="single-post__btn">BACK TO BLOG</button>
           </div>
           <!-- ! CONTENT-RIGHT -->
           <div class="content__right-block">
@@ -116,8 +105,8 @@
             </p>
             <button class="content__right-btn">READ MORE</button>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
      <!-- ! Footer -->
   <footer class="footer">
