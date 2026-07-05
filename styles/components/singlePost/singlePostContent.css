@@ -1,6 +1,7 @@
 
 .content {
     overflow: hidden;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 .single-post__left {

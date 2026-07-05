@@ -1,6 +1,7 @@
 .blog__background {
     background-color: #c8c10d;
     text-align: center;
+    padding: 20px 0;
 }
 .blog__description {
     font-size: 43px;
