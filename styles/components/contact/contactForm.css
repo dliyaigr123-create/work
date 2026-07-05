@@ -1,0 +1,68 @@
+.container__fix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container__fix {
+    margin-bottom: 100px;
+}
+
+.form__title {
+    color: rgb(216, 50, 50);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inquiry__form {
+    width: 55%;
+    float: left;
+    margin-right: 110px;
+}
+
+.form__input {
+    padding-left: 10px;
+    width: 600px;
+    height: 30px;
+}
+
+.form__textarea {
+    height: 250px;
+    max-width: 600px;
+}
+
+.submit__btn {
+    display: block;
+    padding: 8px 45px;
+    color: #cbb5bc;
+     border: 1px solid black;
+    background-color: white;
+    font-family: latoBold;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+/* ! RIGHT */
+
+.content__right-block-contact {
+    overflow: hidden;
+    background-color: rgb(240, 240, 240);
+    margin-top: -60px;
+    padding: 30px;
+}
+
+.content__right-title-contact {
+    font-size: 27px;
+    text-align: center;
+    color: #cb3362;
+    font-family: latoRegular;
+    margin-bottom: 20px;
+}
+
+.content__right-description {
+    text-align: center;
+    font-size: 17px;
+    color: #7a6675;
+    font-family: robotoRegular;
+}

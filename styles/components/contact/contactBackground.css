@@ -1,0 +1,10 @@
+.contact__background {
+    background-color: #c8c10d;
+    text-align: center;
+    padding: 20px 0;
+}
+.contact__description {
+    font-size: 43px;
+    color: #ffffff;
+    font-family: latoRegular;
+}
